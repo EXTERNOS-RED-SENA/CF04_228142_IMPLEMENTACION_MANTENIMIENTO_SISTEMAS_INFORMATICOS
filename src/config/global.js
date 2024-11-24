@@ -219,210 +219,109 @@ export default {
   },
   complementario: [
     {
-      tema: '1.  Integración de sistemas ',
-      referencia:
-        'Cisco. (2011). <i>Cisco simplifica y reduce los costos de su solución de comunicaciones unificadas para las empresas medianas</i>. Blog Cisco Latinoamérica. Comunicaciones Unificadas',
-      tipo: 'Blog Digital Web',
-      link:
-        'https://gblogs.cisco.com/la/cisco-simplifica-reduce-los-costos-de-su-solucion-de-comunicaciones-unificadas-para-las-empresas-medianas/?form=MG0AV3',
-    },
-    {
-      tema:
-        'https://gblogs.cisco.com/la/cisco-simplifica-reduce-los-costos-de-su-solucion-de-comunicaciones-unificadas-para-las-empresas-medianas/?form=MG0AV3',
-      referencia:
-        'Ecosistema de Recursos Educativos Digitales SENA. (2023f, octubre 04). <i>Monitoreo de seguridad web.</i>',
+      tema: '¿Qué es el cableado estructurado?',
+      referencia: 'Novusred. (2023b, septiembre 15).',
       tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=VusaSKjpYLg',
-    },
-    {
-      tema: '3. Seguridad electrónica',
-      referencia:
-        'Ecosistema de Recursos Educativos Digitales SENA. (2022f, marzo 11). <i>Introducción a la Ciberseguridad, sus fundamentos y normativa.</i>',
-      tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=3rqfPRqnKIM',
-    },
-    {
-      tema: '4. Seguridad electrónica',
-      referencia:
-        'Ecosistema de Recursos Educativos Digitales SENA. (2023f, febrero 01). <i>Metodología y estrategias de la ciberseguridad</i>',
-      tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=Dc7PGh5Aiss',
-    },
-    {
-      tema: '5. Gestión de incidentes',
-      referencia:
-        'Ecosistema de Recursos Educativos Digitales SENA. (2023f, diciembre 01). <i>Monitoreo y respuesta de incidentes de seguridad digital</i>',
-      tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=Gwu7EATxkZ0',
+      link: 'https://www.youtube.com/watch?v=laWefp80lz4',
     },
   ],
   glosario: [
     {
-      termino: 'Analítica de video',
+      termino: 'Atenuación',
       significado:
-        'Proceso de análisis de imágenes de video para detectar y comprender patrones o eventos específicos en tiempo real o diferido.',
+        'Pérdida de potencia de una señal a medida que se propaga a lo largo de un cable. Se mide en decibelios (dB).',
     },
     {
-      termino: 'Arquitectura <i>VoIP</i>',
+      termino: 'Cableado estructurado',
       significado:
-        'Estructura tecnológica que permite transmitir comunicaciones de voz a través de internet utilizando el protocolo IP, optimizando costos y recursos.',
+        'Sistema de cableado organizado y sistemático que facilita la gestión y el mantenimiento de la red. Proporciona una base sólida para la conectividad y la comunicación en redes modernas.',
     },
     {
-      termino: 'Calidad de servicio (QoS)',
+      termino: 'Conector',
       significado:
-        'Conjunto de técnicas y parámetros que garantizan el rendimiento adecuado de una red para la transmisión de datos críticos, como voz y video.',
+        'Dispositivo utilizado para conectar cables y equipos de red. Los conectores más comunes en el cableado estructurado son RJ-45 para cables de par trenzado y LC, SC, ST para cables de fibra óptica.',
     },
     {
-      termino: 'Centros de control',
+      termino: 'Diafonía',
       significado:
-        'Instalaciones especializadas donde se monitorean y gestionan sistemas de seguridad y comunicaciones en tiempo real.',
+        'Interferencia que ocurre cuando una señal en un par de cables induce una señal no deseada en otro par de cables adyacente. Se mide en decibelios (dB).',
     },
     {
-      termino: 'Colaboración empresarial',
+      termino: 'Gestión de riesgos',
       significado:
-        'Estrategias y herramientas que facilitan la comunicación y cooperación entre empleados, equipos y organizaciones para mejorar la productividad.',
+        'Proceso de identificar, evaluar y mitigar posibles riesgos que puedan afectar la integridad y el rendimiento de la red.',
     },
     {
-      termino: 'Comunicaciones unificadas',
+      termino: 'Impedancia',
       significado:
-        'Integración de múltiples herramientas de comunicación (mensajería, videollamadas, email, etc.) en una plataforma única para mejorar la eficiencia.',
+        'Parámetro fundamental que afecta la calidad de la señal y la eficiencia de la transmisión de datos.',
     },
     {
-      termino: 'Control de acceso',
+      termino: 'Par trenzado',
       significado:
-        'Mecanismos y tecnologías que regulan quién puede entrar o salir de un área física o acceder a información digital, basándose en permisos y autenticaciones.',
+        'Tipo de cable que contiene pares de cables trenzados entre sí para reducir la interferencia electromagnética. Los cables de par trenzado son ampliamente utilizados en redes de datos.',
     },
     {
-      termino: 'CCTV (Circuito Cerrado de Televisión)',
+      termino: '<em>Patch Panel</em>',
       significado:
-        'Sistema de cámaras de video instaladas para la vigilancia y monitoreo de espacios específicos, utilizado en seguridad electrónica.',
+        'Panel de conexión utilizado para organizar y gestionar las conexiones de cableado en una red. Facilita la administración y el mantenimiento del cableado estructurado.',
     },
     {
-      termino: 'Documentación',
+      termino: 'Planificación del cableado',
       significado:
-        'Proceso de registro y organización de información relacionada con sistemas de seguridad y comunicaciones para referencia futura.',
+        'Proceso de diseñar y organizar la infraestructura de cableado de manera eficiente y escalable. Incluye la selección de materiales, la topología de la red y la ubicación de los equipos de red.',
     },
     {
-      termino: 'Gestión de incidentes',
+      termino: 'Pruebas de cableado',
       significado:
-        'Metodología de identificación, evaluación y resolución de incidentes de seguridad para minimizar riesgos y restablecer el servicio.',
+        'Proceso de evaluar el rendimiento y la calidad del cableado mediante la medición de parámetros como la atenuación, la pérdida de retorno y la diafonía.',
     },
     {
-      termino: 'Integración de sistemas',
+      termino: 'Pérdida de retorno',
       significado:
-        'Proceso de conectar y unificar diferentes sistemas de comunicación para que funcionen de manera coordinada y eficiente.',
+        'Medida de la cantidad de señal que se refleja de vuelta hacia la fuente debido a desajustes de impedancia en el cable. Se mide en decibelios (dB).',
     },
     {
-      termino: 'Mensajería',
+      termino: '<em>Rack</em>',
       significado:
-        'Servicio que permite el envío y recepción de mensajes en tiempo real, facilitando la comunicación rápida y efectiva en entornos corporativos.',
+        'Estructura metálica utilizada para montar y organizar equipos de red y patch panels. Facilita la gestión y el mantenimiento del cableado estructurado.',
     },
     {
-      termino: 'Monitoreo',
+      termino: 'TIA/EIA-568',
       significado:
-        'Vigilancia constante de sistemas y redes para asegurar su correcto funcionamiento y prevenir o detectar problemas de seguridad.',
+        'Estándar de cableado estructurado que define las especificaciones y prácticas recomendadas para la instalación de cables de red.',
     },
     {
-      termino: 'Protocolo de señalización',
+      termino: 'Topología de la red',
       significado:
-        'Normas que regulan el establecimiento, mantenimiento y finalización de conexiones en sistemas de comunicación, como SIP o H.323 en <i>VoIP</i>.',
+        'Arquitectura de una red que describe cómo están conectados los dispositivos y los cables.',
     },
     {
-      termino: 'Redes IP',
+      termino: '<em>UTP (Unshielded Twisted Pair)</em>',
       significado:
-        'Redes basadas en el Protocolo de Internet (IP), que permiten la transmisión de datos de manera eficiente y son la base para servicios como <i>VoIP</i>',
-    },
-    {
-      termino: 'Seguridad electrónica',
-      significado:
-        'Conjunto de tecnologías y métodos utilizados para proteger sistemas e infraestructuras mediante equipos electrónicos como cámaras y sensores.',
-    },
-    {
-      termino: 'Servicios de mensajería',
-      significado:
-        'Herramientas digitales que permiten el envío de mensajes entre usuarios de manera instantánea, contribuyendo a la comunicación en tiempo real.',
-    },
-    {
-      termino: 'Sistemas de alarma',
-      significado:
-        'Dispositivos y sensores que detectan eventos no deseados, como intrusiones, y alertan a los responsables de seguridad.',
-    },
-    {
-      termino: 'Telefonía IP',
-      significado:
-        'Tecnología que permite realizar llamadas de voz a través de redes IP, reduciendo costos y mejorando la flexibilidad en la comunicación.',
-    },
-    {
-      termino: '<i>VoIP (Voice over IP)</i>',
-      significado:
-        'Tecnología que permite la transmisión de voz sobre internet en lugar de líneas telefónicas convencionales, facilitando la telefonía IP.',
+        'Tipo de cable de par trenzado sin apantallamiento. Es el tipo de cable más comúnmente utilizado en redes de datos debido a su bajo costo y facilidad de instalación.',
     },
   ],
   referencias: [
     {
       referencia:
-        'Bosch Security and Safety Systems. (s.f.).<i> Documentación técnica de Video Analytics</i>. Recuperado de ',
-      link:
-        'https://www.boschsecurity.com/xl/es/soluciones/sistemas-de-video/video-analytics/documentacion-tecnica-de-video-analytics/',
+        'Davis, R. (2021, marzo 15). Understanding Structured Cabling. <em>Networking Solutions</em>.',
+      link: '',
     },
     {
       referencia:
-        'Chao, H. C., & Lin, J. (2019). <i>Quality of Service in VoIP and Unified Communications. Journal of Communications, 43</i>(4), 257-266. Disponible en: ',
-      link:
-        'https://www.fortinet.com/resources/cyberglossary/qos-quality-of-service',
+        'Horak, J. (2018). <em>Structured Cabling: Designing and Installing Standard-Based Cabling Systems</em>. McGraw-Hill Education.',
+      link: '',
     },
     {
       referencia:
-        'Eagle Eye Networks. (2021). <i>GUÍA DE BUENAS PRÁCTICAS Manual de Videoseguridad</i>. Tomado de: ',
-      link:
-        'https://www.een.com/wp-content/uploads/2021/05/Video-Security-Primer-20210519_ES_compressed.pdf',
+        'International Organization for Standardization. (2017). <em>ISO/IEC 11801:2017 - Information technology - Generic cabling for customer premises</em>. ISO.',
+      link: '',
     },
     {
       referencia:
-        'García, M., & Fernández, L. (2018). <i>Tecnologías de comunicaciones unificadas en entornos empresariales</i>. Editorial Reverte. Disponible en: ',
-      link:
-        'https://editorialreverte.com/catalogo https://alphaenginyeria.com/la-importancia-de-las-comunicaciones-unificadas-en-el-entorno-empresarial',
-    },
-    {
-      referencia:
-        'Kumar, R., & Rodrigues, J. J. P. C. (2010).<i> Voice over IP Security: Vulnerabilities, Threats, and Countermeasures. In Security for Telecommunications Networks</i>. Springer, 125-151.',
-    },
-    {
-      referencia:
-        'Martínez, C., & Pérez, L. (2020). <i>Centros de control y operaciones en sistemas de seguridad avanzada</i>. Universidad de Alcalá. Disponible en: Repositorio Institucional de la Universidad de Alcalá',
-    },
-    {
-      referencia:
-        'Microsoft. (2023). <i>Messaging Services in Unified Communication Systems</i>. Disponible en: ',
-      link:
-        'https://learn.microsoft.com/en-us/microsoftteams/teams-security-guide',
-    },
-    {
-      referencia:
-        'Nolasco-Mamani, M. A., Espinoza, S. A., & Choque-Salcedo, R. (2023). <i>Innovación y Transformación Digital en el Empresa. Revista de Innovación Empresarial</i>, 10(2), 123-145. Tomado de: ',
-      link:
-        'https://www.researchgate.net/publication/376210760_Innovacion_y_Transformacion_Digital_en_el_Empresa',
-    },
-    {
-      referencia:
-        'Organización Internacional de Normalización (ISO). (2013). <i>ISO/IEC 27001:2013: Tecnología de la información - Técnicas de seguridad - Sistemas de gestión de seguridad de la información - Requisitos</i>.',
-    },
-    {
-      referencia:
-        'Reinhold, S., & Peterson, L. (2020). <i>Signaling Protocols in VoIP Communication Systems. Journal of Digital Communication Systems, 47(3), 134-150</i>. Tomado de: ',
-      link:
-        'https://www.researchgate.net/publication/221034718_Patterns_for_VoIP_Signaling_Protocol_Architectures',
-    },
-    {
-      referencia:
-        'Sánchez, D. (2021). <i>Analítica de video en la seguridad urbana: Implementación y resultados. Revista Científica de Tecnología y Seguridad Urbana</i>. Tomado de: ',
-      link:
-        'https://innovacionindustrial.net/ciudades-inteligentes/como-analitica-video-transformando-seguridad-ciudades-inteligentes/',
-    },
-    {
-      referencia:
-        'Securitas España. (s.f.). <i>Analítica de vídeo: lo que el ojo no ve.</i> Recuperado de: ',
-      link: 'https://www.securitas.es/blog/analitica-de-video/',
+        'Smith, J. (2020). <em>Network Cabling: Design and Implementation</em>. McGraw-Hill Education.',
+      link: '',
     },
   ],
 }

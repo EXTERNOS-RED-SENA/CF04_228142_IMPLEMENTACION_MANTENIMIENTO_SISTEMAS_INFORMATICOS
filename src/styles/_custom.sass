@@ -215,6 +215,12 @@ figcaption
   &.f1
     &:before
       background-image: url(../assets/curso/temas/11.png)
+  &.f2
+    &:before
+      background-image: url(../assets/curso/temas/29.png)
+  &.f3
+    &:before
+      background-image: url(../assets/curso/temas/34.png)
   &__contenido
     position: relative
 
@@ -233,6 +239,20 @@ figcaption
     right: 0
     @media screen and (max-width: $bp-max-sm)
       left: 0
+
+.fondo-personalizado-3
+  position: relative
+  *
+    position: relative
+  &:before
+    background-color: $white
+    border-radius: 30px
+    content: ""
+    position: absolute
+    top: 0
+    bottom: 0
+    left: 50px
+    right: 50px
 
 //acordion
 .acordion-personalizado-1
@@ -262,6 +282,24 @@ figcaption
   -moz-box-shadow: 0px 3px 20px 0px rgba(15,31,51,0.24)
   box-shadow: 0px 3px 20px 0px rgba(15,31,51,0.24)
 
+.slider-personalizado-1
+  .slyder-a__btn--sigt,.slyder-a__btn--atrs
+    min-width: 50px
+    min-height: 50px
+    background-color: $color-acento-botones
+  .slyder-a__bullets
+    flex-wrap: wrap
+    justify-content: center
+    gap: 20px
+    margin: 0 10px
+  .slyder-a__bullets__item
+    margin: 0
+    opacity: 0.35
+    background-color: #FEDA52
+    border: none !important
+    &--active
+      opacity: 1 !important
+
 .slider-personalizado-2
   .slyder-f__btn
     position: relative
@@ -289,6 +327,35 @@ figcaption
   border-bottom: 1px solid #E8E8E8
   .tabs-c__header
     background-color: $white
+  .tabs-c__tab
+    border-bottom: 4px solid #E0D4F0
+    &:after
+      background-color: $color-acento-contenido
+
+.crd_hover_txt
+  position: relative
+  padding: 0 !important
+  overflow: hidden !important
+  img
+    border-bottom-left-radius: 26px
+    border-bottom-right-radius: 26px
+  &:hover
+    .crd_hover_txt--body
+      transition: all .5s ease-in-out
+      transform: translateY(0)
+      h4
+        color: $color-sistema-texto
+      background-color: $color-sistema-o
+  .crd_hover_txt--body
+    width: 100%
+    position: absolute
+    padding: 0.7rem 0.8rem
+    bottom: 0
+    transition: all .5s ease-in-out
+    transform: translateY(calc(100% - 3.9rem))
+    background-color: $color-acento-contenido
+    h4
+      color: $white
 
 
 
@@ -296,84 +363,7 @@ figcaption
 
 
 
-  
 
-.img-a 
-  display: block
-  margin: auto
-
-.img-t
-  width: auto !important
-  height: auto !important 
-
-.img-mov
-  @media (max-width: 1400px)
-    display: block
-    margin: auto
-    width: auto
-    height: auto   
-
-.w
-  width: 99.9% !important   
-
-.j
-  display: grid
-  place-items: center 
-
-.j1
-  display: grid
-  align-items: center
-
-.fa-ul
-  margin-left: 0 !important
-  li
-    display: flex !important
-    &:before
-      position: relative
-      margin-right: 7px
-      font-size: 1.4rem
-
-.brad
-  border-radius: 10px   
-
-.brad1
-  border-radius: 15px   
-
-.brad2
-  border-radius: 30px
-
-.bradtop
-  border-radius: 10px 10px 0 0 
-
-.bradbot
-  border-radius: 0 0 10px 10px  
-
-.bradbot1
-  border-radius: 0 0 20px 20px   
-
-.color1
-  *
-    color: #692CB7 !important    
-
-.color2
-  color: #201C77 !important    
-
-.bgw
-  background-color: white       
-
-.bgs  
-  background-color: #F4F4F4
-
-.bgfig
-  background-color: #F0F9FB 
-
-
-
-.bg2
-  background-color: #EFE8F7  
-
-.bg3
-  background-color:#F3F0EA  
 
 .tabla-a.color-acento-botones thead 
   background-color: #EFE8F7 !important
@@ -391,37 +381,37 @@ figcaption
 
 
 
-.slyder-a__btn--sigt, .slyder-a__btn--atrs
-  @media (max-width: 810px)
-    width: 45px
-    height: 45px
-  @media (max-width: $bp-max-sm )
-    width: 35px
-    height: 35px  
-.slyder-a__bullets__item    
-  @media (max-width: 810px)
-    width: 15px
-    height: 15px  
-    margin: 0 3px   
-  @media (max-width: $bp-max-sm)
-    width: 15px
-    height: 15px  
-    margin: 0 3px        
+//.slyder-a__btn--sigt, .slyder-a__btn--atrs
+//  @media (max-width: 810px)
+//    width: 45px
+//    height: 45px
+//  @media (max-width: $bp-max-sm )
+//    width: 35px
+//    height: 35px  
+//.slyder-a__bullets__item    
+//  @media (max-width: 810px)
+//    width: 15px
+//    height: 15px  
+//    margin: 0 3px   
+//  @media (max-width: $bp-max-sm)
+//    width: 15px
+//    height: 15px  
+//    margin: 0 3px        
 
-.slyder-a
-  &__tipo-a
-    .slyder-a
-      &__bullets
-        position: absolute
-        bottom: 20px !important
-        left: 50%
-        transform: translateX(-50%)            
-
-.slyder-a__bullets__item--active
-  background-color: #FEDA52 !important
-  border: 1px solid #FEDA52
-.slyder-a__btn--sigt, .slyder-a__btn--atrs
-  background-color: #FFEB65
-.slyder-a__bullets__item
-  background-color: #FFF2C3
-  border: 1px solid #FFF2C3        
+//.slyder-a
+//  &__tipo-a
+//    .slyder-a
+//      &__bullets
+//        position: absolute
+//        bottom: 20px !important
+//        left: 50%
+//        transform: translateX(-50%)            
+//
+//.slyder-a__bullets__item--active
+//  background-color: #FEDA52 !important
+//  border: 1px solid #FEDA52
+//.slyder-a__btn--sigt, .slyder-a__btn--atrs
+//  background-color: #FFEB65
+//.slyder-a__bullets__item
+//  background-color: #FFF2C3
+//  border: 1px solid #FFF2C3        

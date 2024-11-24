@@ -10,8 +10,8 @@
               img(src="@/assets/template/Seleccion_Multiple.svg", alt="Texto que describa la imagen")
         .col-12.col-md-8.col-lg-9
           .titulo-segundo
-            h2 Prueba de conocimientos sobre implementación de comunicaciones unificadas y sistemas de seguridad.
-          p.mb-4 Validar el conocimiento adquirido sobre implementación de comunicaciones unificadas y sistemas de seguridad. Esto se trabaja a partir de un conjunto de preguntas con el propósito de buscar una dinámica de razonamiento ágil sobre opciones cerradas y reafirmar un conocimiento declarado dentro del componente.
+            h2 Prueba de conocimientos sobre cableado estructurado: implementación y gestión de riesgos
+          p.mb-4 Evaluar el conocimiento logrado sobre el cableado estructurado: implementación y gestión de riesgos. Esto se desarrollará a partir de un conjunto de preguntas las cuales tienen como propósito corroborar la adquisición del aprendizaje durante el componente.
           .tarjeta.actividad.p-3
             .row.justify-content-around.align-items-center            
               .col-sm.mb-3.mb-sm-0

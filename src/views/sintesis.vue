@@ -2,28 +2,17 @@
 .curso-main-container.pb-3
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    .row.justify-content-center.mb-4
-      .col-lg-4.my-lg-0.my-3
-        img.img-a.img-t(src='@/assets/curso/temas/1.png' alt='')    
-      .col-lg-8.my-lg-0.my-3
-        .row.justify-content-center.align-items-center.bg1.p-4.brad.mb-4
-          .col-lg-auto
-            img.img-a.img-t(src='@/assets/curso/temas/1.png' alt='')
-          .col.pt-lg-0.pt-md-4
-            p.mb-0 El presente componente que trata sobre la implementación de comunicaciones unificadas y sistemas de seguridad abarca los fundamentos y aplicaciones de la tecnología de comunicación y los sistemas de seguridad en un entorno empresarial. Comienza con la telefonía IP, abordando los principios de Voice over IP (VoIP), los protocolos de señalización y la calidad de servicio, elementos esenciales para facilitar llamadas de voz claras y fiables a través de redes digitales. Esta base tecnológica es vital para la comunicación efectiva y el soporte de operaciones a distancia.
-        p Asimismo, se exploran las comunicaciones unificadas y los sistemas de colaboración, que integran diversos medios de mensajería y trabajo colaborativo. Esta integración fomenta la eficiencia y conectividad dentro de las organizaciones, permitiendo una comunicación ágil y adaptada a las necesidades modernas de trabajo. 
-        .row.justify-content-center.align-items-center.mb-4
-          .col.pt-lg-0.pt-md-4
-            p.mb-0 Adicionalmente, se examinan los dispositivos que permiten el intercambio de datos de manera inteligente y eficiente en la red, considerando no solo los componentes básicos, sino también aquellos que habilitan funcionalidades avanzadas, como la integración de sensores y controladores. Esta interconectividad resulta fundamental en el contexto del Internet de las Cosas (IoT), donde los dispositivos deben operar en conjunto para lograr una red funcional, autónoma y escalable, capaz de sostener múltiples usuarios y aplicaciones.
-          .col-lg-auto
-            img.img-a.img-t(src='@/assets/curso/temas/1.png' alt='')
 
-    p.mb-5 En conjunto, este componente proporciona una visión integral de las tecnologías y estrategias necesarias para mantener un ambiente seguro y eficiente en cualquier infraestructura de comunicaciones empresariales, optimizando tanto la colaboración como la protección organizacional.
+    p.mb-4 El siguiente diagrama proporciona una visión general sintetizada de los principales temas abordados en este componente sobre el cableado estructurado, su implementación y la gestión del riesgo. Está diseñado para facilitar al lector a visualizar los elementos más importantes, los beneficios y la relación entre ellos.
+    p.mb-4 Este esquema representa de manera visual la disposición y conexión de los cables, paneles y equipos en una red, facilitando la comprensión de cómo se organiza la infraestructura de comunicación. Al estudiar este diagrama, el aprendiz puede identificar la relevancia de los elementos, entender el flujo del rendimiento de la red y asegurar una instalación eficiente y ordenada. Además, sirve como una guía valiosa para la solución de problemas y el mantenimiento de la red, promoviendo un enfoque planificado en el trabajo con tecnologías de la información.
+    p.mb-4 También permite identificar los elementos destacados sobre la gestión de riesgos en la implementación de sistemas de cableado estructurado para asegurar el éxito del proyecto. La identificación de riesgos es el primer paso, donde se detectan posibles amenazas como fallos en el equipo, errores humanos y condiciones ambientales adversas. Una vez identificados, se realiza un análisis de impacto para evaluar la probabilidad y el grado de afectación de cada riesgo en términos de costos, tiempo, calidad y seguridad.
+    p.mb-4 Finalmente, se implementan estrategias de mitigación, como la redundancia en el sistema, la capacitación del personal y la adquisición de seguros, para reducir la probabilidad de que ocurran los riesgos o minimizar su impacto
 
     .row.justify-content-center
       .col-lg-10.mb-5.bgs.p-4.brad
         figure
-          img(src="@/assets/curso/temas/sintesis.svg", alt="La Figura 4 se denomina «Síntesis temática del componente», allí se mencionan los principales temas tratados sobre la implementación de comunicaciones unificadas y sistemas de seguridad —como sus fundamentos, importación, técnicas, herramientas y prácticas— y algunos subtemas que los integran.")
+          img(src="@/assets/curso/temas/sintesis.svg", alt="La Figura 2 se denomina «Síntesis temática del componente», allí se mencionan los principales temas tratados sobre el cableado estructurado —como sus características, normatividad, como garantizar el rendimiento de la red y los elementos más importantes de la gestión de riesgos.")
+        figcaption.mt-4 #[b Fuente]: OIT, 2024.
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono
