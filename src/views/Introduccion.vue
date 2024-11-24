@@ -3,40 +3,37 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
   
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span
           i.fas.fa-info
       h1 Introducción
+
+    .row.align-items-center.mb-4
+      .col-lg-8
+        p.mb-4(data-aos="fade-up") El cableado estructurado es una infraestructura de telecomunicaciones que permite la conexión de diversos dispositivos y sistemas dentro de un edificio o campus. Este sistema organizado y estandarizado facilita la transmisión de datos, voz y video de manera eficiente y segura. En la era digital actual, donde la conectividad y la comunicación son indispensables para el funcionamiento de cualquier organización, el cableado estructurado se ha convertido en un componente crítico de la infraestructura tecnológica.
+        .fondo-color-sistema-i.p-4(data-aos="fade-right")
+          p.mb-0 La evolución de las tecnologías de la información y la comunicación ha llevado a un aumento significativo en la demanda de redes de alta velocidad y capacidad. Las organizaciones necesitan redes que puedan soportar una gran cantidad de datos y que sean capaces de adaptarse a las cambiantes necesidades del negocio. El cableado estructurado proporciona una solución flexible y escalable que puede satisfacer estas demandas. Además, la estandarización del cableado estructurado permite una mayor compatibilidad entre diferentes sistemas y dispositivos, lo que facilita la integración de nuevas tecnologías y la expansión de la red.
+      .col-lg-4.order-first.order-lg-last(data-aos="fade-left")
+        figure.mb-4.mb-lg-0
+          img.mx-auto(src="@/assets/curso/temas/1.png",style="max-width: 400px;")
     
-    .row.justify-content-center.mb-4  
-      .col-lg-4.my-lg-0.my-3
-        img.img-a.img-t(src='@/assets/curso/temas/4.png' alt='') 
-      .col-lg-8.my-lg-0.my-3
-        p La implementación de comunicaciones unificadas y sistemas de seguridad representa un pilar fundamental en la gestión de infraestructura empresarial moderna, donde la conectividad y la protección de la información son esenciales para garantizar operaciones fluidas y seguras. Este componente formativo profundiza en las tecnologías y estrategias necesarias para integrar redes de comunicación confiables y sistemas de seguridad efectivos en distintos entornos.
-        .row.justify-content-center.bg1.p-4.brad.mb-4
-          .col-lg-auto.j1
-            img.img-a.img-t(src='@/assets/curso/temas/5.png' alt='')
-          .col.pt-lg-0.pt-md-4
-            p.mb-0 El contenido inicia con un análisis de la telefonía IP, abordando los conceptos de Voice over IP (VoIP), los protocolos de señalización y los criterios de calidad de servicio que permiten comunicaciones de voz de alta fidelidad a través de redes IP. A continuación, se estudian las comunicaciones unificadas, que integran diversos sistemas de mensajería y colaboración para mejorar la eficiencia operativa en las organizaciones, promoviendo un ambiente de trabajo más conectado y productivo.
+    p.mb-4(data-aos="fade") La implementación de un cableado estructurado es un proceso complejo que requiere una planificación detallada y una ejecución precisa. Desde la selección de los componentes adecuados hasta la instalación y las pruebas, cada paso es necesario para asegurar el rendimiento óptimo del sistema. Además, la gestión de riesgos es un componente para garantizar la integridad y la continuidad del cableado estructurado. La identificación, evaluación y mitigación de riesgos son prácticas fundamentales para proteger la infraestructura de telecomunicaciones contra fallos y amenazas.
 
-    .row.justify-content-center.align-items-end.mb-4     
-      .col.pt-lg-0.pt-md-4
-        p El módulo también examina aspectos de seguridad electrónica, tales como los sistemas de CCTV, control de acceso y alarmas, que proporcionan medidas de protección robustas y eficaces en tiempo real. Estos sistemas contribuyen a prevenir incidentes y a responder de manera oportuna a amenazas de seguridad.
-        .bg2.p-4.j1
-          p.mb-0 Para finalizar, se exploran los centros de control y la gestión de incidentes, apoyados por herramientas de analítica de video. Estos elementos permiten una supervisión continua de la infraestructura y una capacidad de respuesta ante emergencias, asegurando así la continuidad operativa y la seguridad de los activos empresariales.
+    .row.mb-4
+      .col-lg-2(data-aos="fade-right")
+        figure.mb-4.mb-lg-0
+          img.mx-auto(src="@/assets/curso/temas/2.png",style="max-width: 190px;")
+      .col-lg-10(data-aos="fade-left")
+        .fondo-color-sistema-j.p-4.h-100.align-content-center
+          p.mb-0 En este contexto, este componente se centra en dos aspectos clave del cableado estructurado: la implementación y la gestión de riesgos. A través de un análisis detallado de estos temas, se busca proporcionar una comprensión profunda de los desafíos y las mejores prácticas asociadas con la implementación de un cableado estructurado, así como las estrategias efectivas para la gestión de riesgos abarcando los elementos que engloban su identificación, la normatividad, el control ambiental y los documentos de control.
+    
+    figure(data-aos="zoom-in-out")
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/qas_rTn5Avs?si=1WKsYQzdPIQi00ds" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption DI_ Guion_Introduccion_Video_CF04_ 228142
 
-      .col-lg-auto
-        img.img-a.img-t(src='@/assets/curso/temas/6.png' alt='')  
-
-    h5.mb-4.text-center.bg1.p-3 ¡Bienvenido a este mundo de la implementación del cableado estructurado!
-
-    .row.justify-content-center.align-items-center        
-      .col-lg-12
-        figure
-          .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/qas_rTn5Avs?si=1WKsYQzdPIQi00ds" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)      
-
+   
 </template>
 
 <script>

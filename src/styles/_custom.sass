@@ -2,49 +2,25 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 65%
+    top: 30%
 
 
   &-2
     animation: float2 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 10%
-    right: 0%
-
-  &-3
-    animation: float5 3.8s ease-in-out infinite alternate
-    position: absolute
-    top: 20%
-    left: 10%
-    width: 20%
-
-  &-4
-    animation: float4 2.8s ease-in-out infinite alternate
-    position: absolute
-    top: 60%
-    right: 70%  
-    width: 20%
-
-  &-5
-    animation: float5 2.8s ease-in-out infinite alternate
-    position: absolute
-    top: 78%
-    right: 0%    
+    top: 17%
+    right: 7% 
 
 
 @keyframes float1
 	0% 
 		transform: rotate(0deg) translateX(10px) rotate(-20deg)
-	
-
 	100% 
 		transform: rotate(180deg) translateX(10px) rotate(-180deg)  
 
 @keyframes float2
 	0% 
 		transform: rotate(0deg) translateX(-20px) rotate(20deg)
-	
-
 	100% 
 		transform: rotate(-180deg) translateX(20px) rotate(180deg) 
 
@@ -106,7 +82,7 @@
   background-position: left 50% !important
 
 .banner-principal__row .banner-principal__img
-  width: 280px !important 
+  width: 400px !important 
   padding-top: 1rem 
   padding-bottom: 1rem !important
 
@@ -116,11 +92,211 @@
 .banner-interno__fondo
   background-image: url("../assets/curso/portada/6.png") !important     
 
-.titulo-principal.color-acento-contenido .titulo-principal__numero
-    background-color: #3BA935
-
 figcaption
   font-weight: normal
+
+.fondo-color-sistema-i
+  background-color: $color-sistema-i
+.fondo-color-sistema-j
+  background-color: $color-sistema-j
+.fondo-color-sistema-k
+  background-color: $color-sistema-k
+.fondo-color-sistema-l
+  background-color: $color-sistema-l
+.fondo-color-sistema-m
+  background-color: $color-sistema-m
+.fondo-color-sistema-n
+  background-color: $color-sistema-n
+.fondo-color-secundario
+  background-color: $color-secundario
+.fondo-color-acento-contenido
+  background-color: $color-acento-contenido
+
+//bordes
+.no-borde
+  border: none !important
+.borde-2
+  border-radius: 2px
+.borde-3
+  border-radius: 3px
+.borde-4
+  border-radius: 4px
+.borde-5
+  border-radius: 5px
+.borde-6
+  border-radius: 6px
+.borde-8
+  border-radius: 8px
+.borde-9
+  border-radius: 9px
+.borde-10
+  border-radius: 10px
+.borde-11
+  border-radius: 11px
+.borde-12
+  border-radius: 12px
+.borde-14
+  border-radius: 14px
+.borde-15
+  border-radius: 15px
+.borde-16
+  border-radius: 16px
+.borde-17
+  border-radius: 17px
+.borde-18
+  border-radius: 18px
+.borde-19
+  border-radius: 19px
+.borde-20
+  border-radius: 20px
+.borde-22
+  border-radius: 22px
+.borde-23
+  border-radius: 23px
+.borde-27
+  border-radius: 27px
+.borde-30
+  border-radius: 30px
+.borde-31
+  border-radius: 31px
+
+.borde-p-1
+  border-bottom: 1px solid $color-acento-contenido
+
+//fondos
+.fondo-personalizado-1
+  position: relative
+  &:before
+    content: ""
+    position: absolute
+    width: 108%
+    left: -4%
+    @media screen and (max-width: $bp-max-xl)
+      width: 110%
+      left: -5%
+    @media screen and (max-width: $bp-max-lg)
+      width: 112%
+      left: -6%
+    @media screen and (max-width: $bp-max-md)
+      width: 116%
+      left: -8%
+    @media screen and (max-width: $bp-max-sm)
+      width: 110%
+      left: -5%
+    @media screen and (max-width: 520px)
+      width: 120%
+      left: -10%
+    top: 0
+    bottom: 0
+    z-index: 0
+    background-repeat: no-repeat
+    background-position: top
+    background-size: cover
+  &.no-tam-full
+    &:before
+      left: 0 !important
+      width: 100% !important
+  &.pos-bottom
+    &:before
+      background-position: bottom
+  &.pos-center
+    &:before
+      background-position: center
+  &.size-full
+    &:before
+      background-size: 100%
+    &.med
+      @media screen and (max-width: $bp-max-md)
+        &:before
+          background-size: cover
+  &.pos-center
+    &:before
+      background-position: center
+  &.f1
+    &:before
+      background-image: url(../assets/curso/temas/11.png)
+  &__contenido
+    position: relative
+
+.fondo-personalizado-2
+  position: relative
+  *
+    position: relative
+  &:before
+    background-color: $color-secundario
+    border-radius: 10px
+    content: ""
+    position: absolute
+    top: 0
+    bottom: 0
+    left: 40px
+    right: 0
+    @media screen and (max-width: $bp-max-sm)
+      left: 0
+
+//acordion
+.acordion-personalizado-1
+  .tarjeta
+    .acordion__header
+      margin-bottom: 0.7rem !important
+    .acordion__titulo
+        h3
+          color: $white
+    padding-right: 1rem !important
+    padding-left: 1rem !important
+    padding-top: 0.7rem !important
+    border-radius: 10px
+    background-color: $color-acento-contenido
+    &.acordion__activo
+      background-color: $color-sistema-j
+      .acordion__titulo
+        h3
+          color: $color-sistema-texto
+  .acordion__accion__btn--a
+    width: 50px
+    height: 50px
+    background-color: $color-acento-botones !important
+
+.sombra-p-1
+  -webkit-box-shadow: 0px 3px 20px 0px rgba(15,31,51,0.24)
+  -moz-box-shadow: 0px 3px 20px 0px rgba(15,31,51,0.24)
+  box-shadow: 0px 3px 20px 0px rgba(15,31,51,0.24)
+
+.slider-personalizado-2
+  .slyder-f__btn
+    position: relative
+    *
+      position: relative
+    i
+      color: $white !important
+    &:before
+      content: ""
+      background-color: $color-acento-botones
+      position: absolute
+      height: 50px
+      width: 50px
+      z-index: 0
+      border-radius: 50%
+      @media screen and (max-width: 576px)
+        width: 30px
+        height: 30px
+    i
+      font-size: 1.2rem
+      color: $color-sistema-texto !important
+
+.tabs-c-p-1
+  background-color: $color-sistema-k
+  border-bottom: 1px solid #E8E8E8
+  .tabs-c__header
+    background-color: $white
+
+
+
+
+
+
+
+  
 
 .img-a 
   display: block
@@ -191,8 +367,7 @@ figcaption
 .bgfig
   background-color: #F0F9FB 
 
-.bg1
-  background-color: #EBF6EA
+
 
 .bg2
   background-color: #EFE8F7  
@@ -204,52 +379,16 @@ figcaption
   background-color: #EFE8F7 !important
 
 .tabla-a thead
-  border-top: 2px solid #692CB7  !important  
+  border-top: 5px solid #692CB7  !important  
+.tabla-a caption
+  margin-top: 1rem
 
 .titulo-sexto.color-acento-botones 
   border-left-color: #692CB7 
 
-.bgt1  
-  background-color: #EBF6EA
-
 .titulo-sexto.color-acento-botones 
   border-left-color: #692CB7     
 
-.bg4
-  background-color:#E2F4F9
-
-.bg6  
-  background: url('../assets/curso/temas/34.png')
-  background-position: center
-  background-size: 100% 100%
-  background-repeat: no-repeat
-  margin-inline: -3.4rem
-  @media screen and (max-width: 992px)
-    background-size: cover
-    margin-inline: -1.4rem
-    padding-left: 2rem
-    padding-right: 2rem
-    margin-top: 2rem     
-
-        
-.acordion
-  .tarjeta.bg7
-    background-color: #692CB7
-
-.acordion__titulo
-  *
-    color: white !important      
-
-.tarjeta.bg7.acordion__activo
-  background-color:  #EFE8F7 !important
-  *    
-    color: #12263F !important 
-
-.acordion__accion__btn--a 
-  background-color: #FAC22D !important 
-
-.acordion__accion__btn--a i
-  color: #12263F !important 
 
 
 .slyder-a__btn--sigt, .slyder-a__btn--atrs

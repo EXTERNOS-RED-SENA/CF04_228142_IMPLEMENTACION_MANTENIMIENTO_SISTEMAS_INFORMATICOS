@@ -1,2 +1,1 @@
-module.exports =
-  'Implementación de comunicaciones unificadas y sistemas de seguridad'
+module.exports = 'Cableado estructurado: implementación y gestión de riesgos'
